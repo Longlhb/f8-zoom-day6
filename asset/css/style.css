@@ -1,5 +1,8 @@
 html {
-    font-size: 10px;
+    font-size: 62.5%;
+}
+* {
+    box-sizing: border-box;
 }
 /* index css */
 .container {
@@ -58,17 +61,77 @@ body.cv-body {
 }
 
 .cv-container {
-    max-width: 80rem;
+    width: 100%;
+    max-width: 120rem;
     background-color: #fff;
     margin: 3rem auto 0;
-    box-shadow: 20px 0 20px rgba(0, 0, 0, 0.4);
+    box-shadow: 2rem 0 2rem rgba(0, 0, 0, 0.4);
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.cv-information {
+    text-align: justify;
+    flex: 0 0 28%;
+}
+
+.user-avatar {
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.user-avatar img {
+    width: 18rem;
+    height: 18rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 0.2rem solid #d6d5d5;
+}
+
+.user-introduce,
+.user-information,
+.user-skill {
+    margin-left: 2rem;
+    font-size: 1.4rem;
+    padding: 1.2rem 0;
+    border-bottom: 0.2rem solid #333;
+}
+.user-introduce h1,
+.user-information h1,
+.user-skill h1,
+.user-hobby h1 {
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.user-info-list,
+.user-skill-list,
+.user-hobby-list {
+    margin-left: 2.4rem;
+    list-style: circle;
+}
+.user-info-list li,
+.user-skill-list li,
+.user-hobby-list li {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.user-hobby {
+    margin-left: 2rem;
+    font-size: 1.4rem;
+    padding: 1.2rem 0;
 }
 
 .cv-section {
-    width: 66rem;
     margin: 4.4rem auto;
+    flex: 1;
+    min-width: 0;
+    padding-right: 3rem;
 }
 
 .cv-header {
@@ -105,12 +168,15 @@ body.cv-body {
     justify-content: space-between;
     padding-top: 1rem;
     padding-bottom: 1.5rem;
+    width: 100%;
+    gap: 2rem;
 }
 
 .job-title h3,
 .job-title p {
     font-size: 1.5rem;
     font-weight: 500;
+    flex-shrink: 1;
 }
 
 .experience-list ul {
