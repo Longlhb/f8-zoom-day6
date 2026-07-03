@@ -212,3 +212,105 @@ body.cv-body {
 .cv-footer p strong {
     font-weight: 500;
 }
+
+/* pricing-flex css */
+.price-table-body {
+    background-color: #50addc91;
+}
+
+.price-table-container {
+    max-width: 100rem;
+    width: 100%;
+    text-align: center;
+    background-color: #f4f2f2;
+    margin: 15rem auto;
+}
+
+.price-table-header {
+    padding: 3rem;
+}
+
+.price-table-heading {
+    font-size: 4.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.price-table-desc {
+    font-size: 2rem;
+}
+
+.price-table-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    padding: 3rem 4rem;
+    gap: 2.5rem;
+}
+
+.price-table-item {
+    background-color: #fff;
+    flex-grow: 1;
+    border: #333 solid 0.1rem;
+    border-radius: 1rem;
+}
+
+.price-table-item.choosing {
+    background-color: #4560f9be;
+}
+
+.price-table-item.choosing .item-desc {
+    color: #fff;
+}
+
+.item-desc {
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    color: #5d5c5c;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.price-name {
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+.money {
+    font-size: 3rem;
+    padding-bottom: 1.5rem;
+    color: #000;
+}
+
+.price-table-item.choosing .item-desc .money {
+    color: #fff;
+}
+
+.feature {
+    text-align: start;
+    padding: 0 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.feature-list {
+    list-style-type: disc;
+    padding: 0;
+    margin: 0;
+}
+.feature-item {
+    font-size: 1.5rem;
+    padding: 0.5rem 0;
+}
+
+.btn {
+    margin-top: auto;
+    padding: 0.5rem 2.5rem;
+    background-color: #e9e8e8;
+    align-self: center;
+    border: #a7a6a6 solid 0.1rem;
+    border-radius: 0.5rem;
+}
+.price-table-item.choosing .item-desc .btn {
+    background-color: #fff;
+    color: #4560f9be;
+}
