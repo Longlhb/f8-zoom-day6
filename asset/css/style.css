@@ -711,3 +711,27 @@ li > i {
     border: var(--primary-color) solid 0.02rem;
     cursor: pointer;
 }
+
+/* css froggy.html */
+.froggy-body {
+    background-color: var(--background-body-color);
+    font-family: "Poppins", sans-serif;
+    color: var(--text-color);
+}
+
+.froggy-header {
+    text-align: center;
+    font-size: 5rem;
+    margin: 2rem 0;
+}
+
+.img-froggy-item img {
+    width: 100rem;
+    height: 50rem;
+    object-fit: contain;
+}
+.froggy-text {
+    text-align: center;
+    font-size: 2rem;
+    margin: 2rem 0;
+}
