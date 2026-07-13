@@ -597,3 +597,117 @@ li > i {
 .product-item:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
+
+/* register css */
+.register-body {
+    background-color: var(--background-body-color);
+    font-family: "Poppins", sans-serif;
+    color: var(--text-color);
+}
+
+.register-section {
+    display: flex;
+    gap: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    background-color: var(--background-primary-color);
+    border-radius: 5rem;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.img-register img {
+    width: 50rem;
+    height: 70rem;
+    object-fit: cover;
+}
+
+.register-form {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.register-form h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 500;
+    padding-bottom: 1rem;
+    color: var(--text-black-color);
+}
+.register-form p {
+    text-align: center;
+    font-size: 1.4rem;
+    padding-bottom: 2rem;
+}
+
+.register-form p::after {
+    content: "";
+    display: block;
+    width: 20rem;
+    height: 0.1rem;
+    background-color: var(--primary-color);
+    margin: 1.5rem auto;
+}
+
+.from-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    padding: 0.5rem 2rem;
+}
+
+.from-group label {
+    width: 10rem;
+    flex-shrink: 0;
+    font-size: 1.2rem;
+}
+
+.from-group input {
+    flex: 1;
+    height: 3rem;
+    margin: 0 1rem;
+    border-radius: 0.5rem;
+    padding: 0 1rem;
+    border: var(--icon-border-color) solid 0.02rem;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    padding: 0.5rem 2rem;
+    font-size: 1.2rem;
+}
+.checkbox input {
+    margin: 0 3rem;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.checkbox a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.checkbox a:hover {
+    text-decoration: underline;
+}
+
+.btn-register {
+    text-align: center;
+    width: 10rem;
+    padding: 1rem 1rem;
+    background-color: var(--primary-color);
+    color: var(--background-primary-color);
+    border-radius: 5rem;
+    border: var(--primary-color) solid 0.02rem;
+    font-size: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn-register:hover {
+    background-color: var(--background-primary-color);
+    color: var(--primary-color);
+    border: var(--primary-color) solid 0.02rem;
+    cursor: pointer;
+}
